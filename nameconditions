@@ -1,0 +1,9 @@
+name=input("enter your username:")
+if len(name)>12:
+    print("your user name cant be 12 charcters")
+elif not  name.find(" ")==-1:
+     print("dont use spaces")
+elif not name.isalpha():
+     print("use only alphabests")
+else:
+     print(f" hello{ name}")
