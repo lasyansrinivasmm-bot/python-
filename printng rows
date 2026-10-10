@@ -1,0 +1,7 @@
+rows=int(input("enter no:of rows:"))
+coloumn=int(input("Enter your no:of coloumns:"))
+symbol=(input("Enter your symbol:"))
+for i in range (rows):
+    for j in range(coloumn):
+        print(symbol,end=' ')
+    print()    
