@@ -1,0 +1,4 @@
+x = int(input())
+y = int(input())
+
+print(x + y, x - y, x * y, f"{x / y:.3f}", x // y, x % y)
